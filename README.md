@@ -1,10 +1,12 @@
-# 10-practica-streaming
+# 10 Practica Streaming version 1
 0. [Que queremos obtener ](#schema0)
 1. [Arrancar Zeppelin ](#schema1)
 2. [Importación de librerías ](#schema2)
 3. [Creando las variables de conexión](#schema3)
 4. [Crear socket](#schema4)
 5. [Ponemos a la escucha el programa](#schema5)
+6. [Instalamos netcat](#schema6)
+7. [Terminar el proceso](#schema7)
 
 
 <hr>
@@ -89,3 +91,14 @@ nc -l 9000
 
 ![scala](./images/001.png)
 ![scala](./images/002.png)
+
+
+
+<hr>
+
+<a name="schema7"></a>
+
+# 7. Terminar el proceso
+~~~
+bin/zeppelin-daemon.sh stop 
+~~~
